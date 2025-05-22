@@ -6,14 +6,14 @@ This repository contains the solutions for the AISG technical assessment.
 
 ### Description
 
-This part consists of a Python script (`word_freq.py`) that reads a text file, counts the frequency of each word, and then prints the 10th to 20th most common words, sorted by frequency (descending) and then alphabetically (ascending).
+This part consists of a Python script (`word_freq.py`) that reads a text file, counts the frequency of each word, and then prints the 10th to 20th most common words.
 
 ### Setup
 
 1. **Prerequisites:**
    * Python 3.x
 
-2. **Clone the repository (if you haven's already):**
+2. **Clone the repository:**
 
    ```bash
    git clone <repository-url>
@@ -123,12 +123,6 @@ This is a Next.js web application built with the App Router that allows users to
    ```
 
    The application will typically be available at `http://localhost:3000`.
-
-### API Route
-
-The application uses an internal API route to fetch data from the Google Books API:
-
-* `GET /api/books?q=<query>&startIndex=<startIndex>&maxResults=<maxResults>`: Fetches a list of books.
 
 ## Overall Project Structure
 
