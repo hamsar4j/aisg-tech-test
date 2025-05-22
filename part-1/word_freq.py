@@ -26,6 +26,7 @@ def main():
     # Sort by frequency, then alphabetically
     sorted_words = sorted(freq.items(), key=lambda x: (-x[1], x[0]))
     # Print 10th to 20th most common words
+    print("Words ranked from 10th to 20th by frequency:")
     for word, count in sorted_words[9:20]:
         print(f"{word}: {count}")
 
