@@ -52,6 +52,20 @@ This is a Next.js web application built with the App Router that allows users to
 * **Book Details:** Clicking on a book in the list navigates the user to a detailed page with information such as title, author(s), description, and cover image.
 * **Responsive UI:** The application features a clean, responsive, and user-friendly interface that works seamlessly across different screen sizes.
 
+### Screenshots
+
+**Home Page / Search:**
+
+![Home Page](public/home.png)
+
+**Search Results (Grid View):**
+
+![Search Results Grid](public/grid.png)
+
+**Book Details Page:**
+
+![Book Details](public/details.png)
+
 ### Tech Stack
 
 * **Framework:** Next.js (with App Router)
